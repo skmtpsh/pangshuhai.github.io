@@ -234,6 +234,158 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.pangshuhai.com/2019/12/05/逆波兰式/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="psh">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="逄淑海">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/12/05/逆波兰式/" itemprop="url">公式编辑器</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-12-05T17:23:19+08:00">
+                2019-12-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>PROCESS BEGIN:</p>
+<p>   1.从左往右扫描中缀表达式串s，对于每一个操作数或操作符，执行以下操作;</p>
+<pre><code>2.IF (扫描到的s[i]是操作数DATA)
+</code></pre><p>　　　　　    将s[i]添加到输出串中;</p>
+<pre><code>3.IF (扫描到的s[i]是开括号&apos;(&apos;)
+
+         将s[i]压栈;
+
+4.WHILE (扫描到的s[i]是操作符OP)
+
+        IF (栈为空 或 栈顶为&apos;(&apos; 或 扫描到的操作符优先级比栈顶操作符高)
+
+              将s[i]压栈;
+
+              BREAK;
+
+        ELSE
+
+              出栈至输出串中
+
+5.IF (扫描到的s[i]是闭括号&apos;)&apos;)
+
+        栈中运算符逐个出栈并输出，直到遇到开括号&apos;(&apos;;
+
+        开括号&apos;(&apos;出栈并丢弃;
+
+6.返回第1.步
+</code></pre><p>　　       7.WHILE (扫描结束而栈中还有操作符)</p>
+<pre><code>操作符出栈并加到输出串中
+</code></pre><p>PROCESS END </p>
+<p>[href=’<a href="https://github.com/serratus/quaggaJS#node-example&#39;]" target="_blank" rel="noopener">https://github.com/serratus/quaggaJS#node-example&#39;]</a> quaggaJS</p>
+<p>[href=’<a href="https://www.pigno.se/barn/PIGNOSE-Formula/&#39;]" target="_blank" rel="noopener">https://www.pigno.se/barn/PIGNOSE-Formula/&#39;]</a> Formula</p>
+<p>[href=’<a href="https://www.pigno.se/barn/PIGNOSE-FormulaParser/&#39;]" target="_blank" rel="noopener">https://www.pigno.se/barn/PIGNOSE-FormulaParser/&#39;]</a> FormulaParser</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://www.pangshuhai.com/2019/12/05/公式编辑器/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1050,7 +1202,7 @@ $(function() {
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
