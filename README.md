@@ -12,3 +12,9 @@
 [木易杨前端进阶](https://muyiy.cn/question/)
 
 [VUE3](https://v3.cn.vuejs.org/guide/installation.html#%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E)
+
+
+[网站配置](https://juejin.cn/post/6897100462676246541?utm_source=gold_browser_extension)
+
+[23模式](http://c.biancheng.net/view/1317.html)
+
